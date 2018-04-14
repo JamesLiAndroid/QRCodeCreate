@@ -29,14 +29,14 @@ if(file_exists("./fonts/log.txt")){
                <div class="am-u-sm-12 am-padding-vertical">
 		       <hr>
 <center>
-<form action="a.php" method="post" enctype="multipart/form-data">
+<!-- <form action="a.php" method="post" enctype="multipart/form-data">
                   <div class="am-form-group am-form-file">
                   <button type="button" class="am-btn am-btn-danger am-btn-sm"><i class="am-icon-cloud-upload"></i> 选择要上传的图片</button>
                   <input id="doc-form-file" type="file" name="file"  capture="camera" multiple>
                   <div id="file-list"></div>
                   </div>
                <button type="submit" name="submit" class="itemCopy am-btn am-btn-success am-round am-btn-sm">生成二维码</button>
-                </form><hr>
+                </form><hr> -->
 <!--
 <!--  enctype="multipart/form-data"
 <form id="form" action="c.php" method="post" >
@@ -66,15 +66,15 @@ if(file_exists("./fonts/log.txt")){
 	     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
          <script src="https://cdnjs.cloudflare.com/ajax/libs/amazeui/2.7.2/js/amazeui.min.js"></script>
 <script>
-		  $(function() {
-			$('#doc-form-file').on('change', function() {
-			  var fileNames = '';
-			  $.each(this.files, function() {
-				fileNames += '<span class="am-badge">' + this.name + '</span> ';
-			  });
-			  $('#file-list').html(fileNames);
-			});
-		  });
+		  // $(function() {
+			// $('#doc-form-file').on('change', function() {
+			//   var fileNames = '';
+			//   $.each(this.files, function() {
+			// 	fileNames += '<span class="am-badge">' + this.name + '</span> ';
+			//   });
+			//   $('#file-list').html(fileNames);
+			// });
+		  // });
 
     //           /**
     //  * 从 file 域获取 本地图片 url
